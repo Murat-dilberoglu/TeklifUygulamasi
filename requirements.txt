@@ -1,0 +1,9 @@
+streamlit
+pandas
+openpyxl
+pillow
+pymupdf
+rapidocr-onnxruntime
+rapidfuzz
+google-genai
+pydantic
