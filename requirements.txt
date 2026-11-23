@@ -3,6 +3,7 @@ pandas
 openpyxl
 pillow
 pymupdf
+opencv-python-headless
 rapidocr-onnxruntime
 rapidfuzz
 google-genai
