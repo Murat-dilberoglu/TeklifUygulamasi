@@ -8,7 +8,10 @@ import urllib.parse
 import fitz
 from PIL import Image
 from rapidfuzz import fuzz
-from rapidocr_onnxruntime import RapidOCR
+try:
+    from rapidocr_onnxruntime import RapidOCR
+except Exception:
+    RapidOCR = None
 import openpyxl
 from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
 from openpyxl.drawing.image import Image as XLImage
